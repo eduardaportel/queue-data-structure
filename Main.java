@@ -1,9 +1,6 @@
 import java.util.Queue;
 import java.util.LinkedList;
 
-// queue : FIFO data structure, ex: a line of people
-// linear data structure
-
 public class Main {
     public static void main(String[] args) {
 
@@ -13,14 +10,18 @@ public class Main {
         // initialize a queue with LinkedList
         Queue<String> queue = new LinkedList<String>();
 
+        // example: a line of people
         // add = enqueue, offer()
         queue.offer("Karen");
         queue.offer("Ms. Jackson");
         queue.offer("Steve");
         queue.offer("Harold");
 
-        // peek() shows me the first element of the queue
-        System.out.println(queue.peek());
+        // remove = dequeue, poll()
+        queue.poll(); 
+        // Karen removed
+        queue.poll();
+        // Ms. Jackson removed
 
         // print queue
         System.out.println(queue);
