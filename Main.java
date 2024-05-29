@@ -17,8 +17,8 @@ public class Main {
         queue.offer("Steve");
         queue.offer("Harold");
 
-        // size() shows the number of elements 
-        System.out.println(queue.size());
+        // if contains() an element
+        System.out.println(queue.contains("Steve"));
 
         // print queue
         System.out.println(queue);
