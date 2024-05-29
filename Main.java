@@ -16,15 +16,14 @@ public class Main {
         queue.offer("Ms. Jackson");
         queue.offer("Steve");
         queue.offer("Harold");
+        System.out.println("Queue + offer(): " + queue);
 
         // remove = dequeue, poll()
         queue.poll(); 
-        // Karen removed
-        queue.poll();
-        // Ms. Jackson removed
+        System.out.println("Queue + poll(): " + queue);
 
-        // print queue
-        System.out.println(queue);
+        // isEmpty()
+        System.out.println(queue.isEmpty());
 
     };
 }
