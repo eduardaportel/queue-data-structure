@@ -16,21 +16,12 @@ public class Main {
         queue.offer("Ms. Jackson");
         queue.offer("Steve");
         queue.offer("Harold");
-        System.out.println(queue);
 
-        // size()
-        System.out.println("Number of elements: " + queue.size());
-
-        // isEmpty() = true
-        queue.poll();
-        queue.poll();
-        queue.poll();
-        queue.poll();
-        System.out.println(queue);
-        System.out.println(queue.isEmpty());
+        // size() shows the number of elements 
+        System.out.println(queue.size());
 
         // print queue
-        // System.out.println(queue);
+        System.out.println(queue);
 
 
     };
