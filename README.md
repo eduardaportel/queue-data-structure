@@ -1,1 +1,1 @@
-# queue-data-structure
+dealing with queue = FIFO data structure (First IN First Out)
