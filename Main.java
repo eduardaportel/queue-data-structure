@@ -18,7 +18,11 @@ public class Main {
         queue.offer("Ms. Jackson");
         queue.offer("Steve");
         queue.offer("Harold");
-        
+
+        // peek() shows me the first element of the queue
+        System.out.println(queue.peek());
+
+        // print queue
         System.out.println(queue);
 
     };
