@@ -1,1 +1,1 @@
-dealing with queue = FIFO data structure (First IN First Out)
+learning about queue, a FIFO (First In First Out) data structure.
