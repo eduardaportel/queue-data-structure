@@ -16,14 +16,22 @@ public class Main {
         queue.offer("Ms. Jackson");
         queue.offer("Steve");
         queue.offer("Harold");
-        System.out.println("Queue + offer(): " + queue);
+        System.out.println(queue);
 
-        // remove = dequeue, poll()
-        queue.poll(); 
-        System.out.println("Queue + poll(): " + queue);
+        // size()
+        System.out.println("Number of elements: " + queue.size());
 
-        // isEmpty()
+        // isEmpty() = true
+        queue.poll();
+        queue.poll();
+        queue.poll();
+        queue.poll();
+        System.out.println(queue);
         System.out.println(queue.isEmpty());
+
+        // print queue
+        // System.out.println(queue);
+
 
     };
 }
