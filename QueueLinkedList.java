@@ -1,7 +1,7 @@
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class Main {
+public class QueueLinkedList {
     public static void main(String[] args) {
 
         // Queue is a template/interface and we need a class to apply it
