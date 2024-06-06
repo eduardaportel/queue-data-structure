@@ -2,24 +2,24 @@ import java.util.*;
 
 public class PriorityQueueTest {
     public static void main(String[] args) {
-        // queue is a interface only
-        // Priority Queue = FIFO data structure
-        
-        // equeue = offer()
-        // dequeue = poll()
+        /*
+        Priority Queue = FIFO data structure that serves elements with the highest priorities first before elements with lower priority
 
-        // creating a queue that receive double numbers
-        // Priority Queue arranges them in crescent order
-        Queue<Double> queue = new PriorityQueue<>(Collections.reverseOrder());
+        offer() = equeue
+        poll() = dequeue
+        */
+   
+        // queue of scholl grades 
+        Queue<String> queue = new PriorityQueue<String>(Collections.reverseOrder()); // reverse alphabetical order
 
-        // offer() to equeue
-        queue.offer(3.4);
-        queue.offer(2.5);
-        queue.offer(4.6);
-        queue.offer(1.0);
-        queue.offer(1.2);
+        // equeue elements
+        queue.offer("B");
+        queue.offer("C");
+        queue.offer("A");
+        queue.offer("F");
+        queue.offer("D");
 
-        // display elements with while() loop
+        // display those elements with while() loop
         while (!queue.isEmpty()) {
             System.out.println(queue.poll()); //FIFO
         }
