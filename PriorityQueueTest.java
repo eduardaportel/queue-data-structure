@@ -8,7 +8,8 @@ public class PriorityQueueTest {
         // equeue = offer()
         // dequeue = poll()
 
-        // creating a queue that receive double numbers using a Linkedlist
+        // creating a queue that receive double numbers
+        // Priority Queue arranges them in crescent order
         Queue<Double> queue = new PriorityQueue<>();
 
         // offer() to equeue
