@@ -10,7 +10,7 @@ public class PriorityQueueTest {
 
         // creating a queue that receive double numbers
         // Priority Queue arranges them in crescent order
-        Queue<Double> queue = new PriorityQueue<>();
+        Queue<Double> queue = new PriorityQueue<>(Collections.reverseOrder());
 
         // offer() to equeue
         queue.offer(3.4);
